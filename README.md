@@ -56,7 +56,7 @@ See [npm docs](https://docs.npmjs.com/using-private-packages-in-a-ci-cd-workflow
 | `version:minor` | Bump version in package.json -> minor |
 | `version:major` | Bump version in package.json -> major |
 
-## Project Structure
+### Project Structure
 
 | Name             | Description                                                    |
 | ---------------- | -------------------------------------------------------------- |
