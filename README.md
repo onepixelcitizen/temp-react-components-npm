@@ -41,13 +41,13 @@ Generate NPM `dist` package using Rollup (significantly faster):
 yarn build
 ```
 
-\*Experimental - Generate NPM `dist` package using TypeScript:
+_\*Experimental_ - Generate NPM `dist` package using TypeScript:
 
 ```
 yarn build-tsc
 ```
 
-Generates `dist` folder and starts preview app on PORT:9999 in watch mode:
+Generates `dist` folder and starts ui-library preview on PORT:9999 in watch mode:
 
 ```
 yarn dev
@@ -58,6 +58,12 @@ yarn dev
 ```
 yarn test
 ```
+
+## Publish to NPM
+
+**Always bump ui-library version first!**
+
+Then run `npm publish` - assuming you have \${NPM_TOKEN} set on your local machine in your `~/.profile`
 
 ### Versioning
 
