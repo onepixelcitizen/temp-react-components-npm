@@ -35,25 +35,25 @@ Install all required dependencies:
 yarn
 ```
 
-_Generate NPM `dist` package using Rollup (significantly faster):_
+**Generate NPM `dist` package using Rollup (significantly faster):**
 
 ```
 yarn build
 ```
 
-_\*Experimental - Generate NPM `dist` package using TypeScript:_
+**\*Experimental - Generate NPM `dist` package using TypeScript:**
 
 ```
 yarn build-tsc
 ```
 
-_Generates `dist` folder and starts preview app on PORT:9999 in watch mode:_
+**Generates `dist` folder and starts preview app on PORT:9999 in watch mode:**
 
 ```
 yarn dev
 ```
 
-_\*TODO - run tests:_
+**\*TODO - run tests:**
 
 ```
 yarn test
