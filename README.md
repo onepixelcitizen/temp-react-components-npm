@@ -27,31 +27,33 @@ In essence, this application allows you to build UI components in isolation - me
 | tsconfig.json    | Config settings for compiling code written in TypeScript       |
 | yarn.lock        | Auto-generated file to get consistent installs across machines |
 
-### Building and Running
+## Building and Running
 
 Install all required dependencies:
 
-#### `yarn`
+```
+yarn
+```
 
-**Generate NPM `dist` package using Rollup (significantly faster):**
+Generate NPM `dist` package using Rollup (significantly faster):
 
 ```
 yarn build
 ```
 
-**\*Experimental - Generate NPM `dist` package using TypeScript:**
+\*Experimental - Generate NPM `dist` package using TypeScript:
 
 ```
 yarn build-tsc
 ```
 
-**Generates `dist` folder and starts preview app on PORT:9999 in watch mode:**
+Generates `dist` folder and starts preview app on PORT:9999 in watch mode:
 
 ```
 yarn dev
 ```
 
-**\*TODO - run tests:**
+\*TODO - run tests:
 
 ```
 yarn test
