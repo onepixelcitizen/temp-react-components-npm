@@ -9,7 +9,7 @@ import { TestComponent, Bazinga, Button } from "./ui-library";
 
 const scope = { Bazinga };
 const code = `<>
-  <Bazinga from="Chubaka"/>
+  <Bazinga from="Chewbacca"/>
   <Bazinga />
 </>`;
 

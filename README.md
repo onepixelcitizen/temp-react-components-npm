@@ -34,7 +34,9 @@ Generates `dist` folder and starts UI Library preview on PORT:9999 in watch mode
 yarn dev
 ```
 
-![ui-view](https://user-images.githubusercontent.com/1299502/70335665-65a53e80-1850-11ea-9568-e330c5697c1f.png)
+Here is what Developer view looks like:
+
+![ui-view](https://user-images.githubusercontent.com/1299502/70335947-faa83780-1850-11ea-99da-d7d851972a81.png)
 
 \*TODO - run tests:
 
