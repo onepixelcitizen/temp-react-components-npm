@@ -42,7 +42,7 @@ yarn test
 
 ## Publish to NPM
 
-> :warning: **Always bump ui-library version!**
+> :warning: **Don't forget to bump ui-library package version!**
 
 Then run `npm publish` - assuming you have \${NPM_TOKEN} set on your local machine in your `~/.profile`
 
