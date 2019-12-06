@@ -31,9 +31,7 @@ In essence, this application allows you to build UI components in isolation - me
 
 Install all required dependencies:
 
-```
-yarn
-```
+#### `yarn`
 
 **Generate NPM `dist` package using Rollup (significantly faster):**
 
