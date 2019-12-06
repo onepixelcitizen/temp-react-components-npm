@@ -11,7 +11,7 @@ const Header = () => {
           Live Preview
         </span>
         <span className="font-semibold mr-2 text-sm text-left flex-auto">
-          Interact with components right in this view
+          Interact with components right in this view 🚀
         </span>
       </div>
     </div>

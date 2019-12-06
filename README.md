@@ -28,11 +28,13 @@ _\*Experimental_ - Generate NPM `dist` package using TypeScript:
 yarn build-tsc
 ```
 
-Generates `dist` folder and starts ui-library preview on PORT:9999 in watch mode:
+Generates `dist` folder and starts UI Library preview on PORT:9999 in watch mode:
 
 ```
 yarn dev
 ```
+
+![ui-view](https://user-images.githubusercontent.com/1299502/70335665-65a53e80-1850-11ea-9568-e330c5697c1f.png)
 
 \*TODO - run tests:
 

@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   padding: 10px;
@@ -11,7 +11,7 @@ export interface TestComponentProps {
 }
 
 const TestComponent: React.FC<TestComponentProps> = ({ text }) => (
-  <Wrapper>{text ? text : 'Test Component'}</Wrapper>
+  <Wrapper>{text ? text : "Test Component"}</Wrapper>
 );
 
 export default TestComponent;

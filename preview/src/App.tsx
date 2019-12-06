@@ -5,7 +5,7 @@ import Masonary from "./components/Masonary";
 import Header from "./components/Header";
 import Tag, { TagsWrapper } from "./components/Tag";
 
-import { TestComponent, Bazinga } from "./ui-library";
+import { TestComponent, Bazinga, Button } from "./ui-library";
 
 const scope = { Bazinga };
 const code = `<>
@@ -13,8 +13,11 @@ const code = `<>
   <Bazinga />
 </>`;
 
-const code1 = `<TestComponent text="Styled Component from React library" />`;
+const code1 = `<TestComponent text="Styled Component from UI library" />`;
 const scope1 = { TestComponent };
+
+const code2 = `<Button text="Say Hello" onClick={()=> alert('Hello world')} />`;
+const scope2 = { Button };
 
 const App = () => {
   const [toggle, setToggle] = useState("");
@@ -43,7 +46,7 @@ const App = () => {
       <Header />
 
       <TagsWrapper>
-        <Tag text="miscelanious" onClick={() => setToggle("zero")} />
+        <Tag text="miscellaneous" onClick={() => setToggle("misc")} />
         <Tag text="button" onClick={() => setToggle("button")} />
         <Tag text="x" onClick={() => setToggle("")} />
       </TagsWrapper>
@@ -52,14 +55,19 @@ const App = () => {
         <LiveCard
           code={code}
           scope={scope}
-          filter="zero"
+          filter="misc"
           prop={["122", "2332"]}
         />
-        <LiveCard code={code1} scope={scope1} />
-        <LiveCard code={code} scope={scope} filter="button" />
-        <LiveCard code={code1} scope={scope1} />
-        <LiveCard code={code} scope={scope} filter="zero" />
-        <LiveCard code={code1} scope={scope1} />
+        <LiveCard code={code1} scope={scope1} filter="misc" />
+        <LiveCard code={code2} scope={scope2} filter="button" />
+        <LiveCard code={code1} scope={scope1} filter="misc" />
+        <LiveCard code={code2} scope={scope2} filter="button" />
+        <LiveCard
+          code={code}
+          scope={scope}
+          filter="misc"
+          prop={["122", "2332"]}
+        />
       </Masonary>
     </>
   );
