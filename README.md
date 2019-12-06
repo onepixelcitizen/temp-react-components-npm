@@ -8,7 +8,7 @@ Build and upload ReactJS components to NPM
 
 In essence, this application allows you to build UI components in isolation - meaning you can build and preview them independently from any particular brand. At the same time, it creates a `dist` folder ready to be pushed to the NPM using a few familiar commands.
 
-## Project Structure
+### Project Structure
 
 | Name             | Description                                                    |
 | ---------------- | -------------------------------------------------------------- |
@@ -27,12 +27,38 @@ In essence, this application allows you to build UI components in isolation - me
 | tsconfig.json    | Config settings for compiling code written in TypeScript       |
 | yarn.lock        | Auto-generated file to get consistent installs across machines |
 
-## Features
+### Building and Running
 
-## Pre-Requisites
+| CLI Command      | Description                                                       |
+| ---------------- | ----------------------------------------------------------------- |
+| `yarn`           | Install all required dependencies                                 |
+| `yarn build`     | Generate NPM `dist` package                                       |
+| `yarn build-tsc` | \*Experimental                                                    |
+| `yarn dev`       | Generates `dist` folder and starts CRA on PORT:9999 in watch mode |
+| `yarn test`      | \*TODO                                                            |
 
-## Usage
+### Versioning
 
-## Testing
+| Npm Script      | Description                           |
+| --------------- | ------------------------------------- |
+| `version:patch` | Bump version in package.json -> patch |
+| `version:minor` | Bump version in package.json -> minor |
+| `version:major` | Bump version in package.json -> major |
 
-> TODO: Add testing facility
+### Changelogs
+
+Use a `CHANGELOG` markdown file to keep changes of repository in an ordered and structured way.
+
+Recommended template to use for each bullet of the changelog.
+
+```markdown
+## [1.0.0] - YYYY-MM-DD
+
+### Changes
+
+- commit message
+```
+
+### Testing
+
+> \*TODO: Add testing functionality...
