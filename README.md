@@ -29,13 +29,35 @@ In essence, this application allows you to build UI components in isolation - me
 
 ### Building and Running
 
-| CLI Command      | Description                                                       |
-| ---------------- | ----------------------------------------------------------------- |
-| `yarn`           | Install all required dependencies                                 |
-| `yarn build`     | Generate NPM `dist` package                                       |
-| `yarn build-tsc` | \*Experimental                                                    |
-| `yarn dev`       | Generates `dist` folder and starts CRA on PORT:9999 in watch mode |
-| `yarn test`      | \*TODO                                                            |
+Install all required dependencies:
+
+```
+yarn
+```
+
+Generate NPM `dist` package using Rollup (significantly faster):
+
+```
+yarn build
+```
+
+\*Experimental - Generate NPM `dist` package using TypeScript:
+
+```
+yarn build-tsc
+```
+
+Generates `dist` folder and starts preview app on PORT:9999 in watch mode:
+
+```
+yarn dev
+```
+
+\*TODO - run tests:
+
+```
+yarn test
+```
 
 ### Versioning
 
@@ -58,7 +80,3 @@ Recommended template to use for each bullet of the changelog.
 
 - commit message
 ```
-
-### Testing
-
-> \*TODO: Add testing functionality...
