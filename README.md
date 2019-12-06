@@ -46,6 +46,8 @@ yarn test
 
 Then run `npm publish` - assuming you have \${NPM_TOKEN} set on your local machine in your `~/.profile`
 
+See [npm docs](https://docs.npmjs.com/using-private-packages-in-a-ci-cd-workflow) for more info.
+
 ### Versioning
 
 | Npm Script      | Description                           |
